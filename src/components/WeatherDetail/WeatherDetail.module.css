@@ -1,0 +1,26 @@
+.container{
+    background-color: var(--white);
+    color: #000;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.current{
+    font-size: 6rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.temperature {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.temperature p {
+    font-weight: 900;
+}
+.temperature span {
+    font-weight: 400;
+}
